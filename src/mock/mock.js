@@ -9,3 +9,6 @@ Mock.mock('http://localhost:8080/menu', {
     'name': 'menu',
     'order|1-20': 5
 })
+Mock.mock('http://localhost:8080/login', {
+    'token': '1234567'
+})
